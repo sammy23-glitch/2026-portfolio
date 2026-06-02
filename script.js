@@ -3,14 +3,14 @@ window.addEventListener('load', ()=> {
     document.body.classList.add('loaded');
 });
 //Highlight active menu
-const links = document.querySelectorAll('.nav a');
+const links = document.querySelectorAll('nav a');
 links.forEach(link => {
     if(link.href === window.location.href){
         link.style.color="#ffd6ff";
     }
 });
 //scroll animations
-const sections = document.querySelectorAll('.section');
+const sections = document.querySelectorAll('section');
 
 const observer= new
 IntersectionObserver((entries)=>{
@@ -24,13 +24,13 @@ sections.forEach(section=>{
     observer.observe(section);
 });
 //simple typing effect 
-const tittle = document.querySelector('.h1');
-const text = tittle.innertext;
-tittle.innertext = '';
+const tittle = document.querySelector('h1');
+const text = tittle.innerText;
+tittle.innerText = '';
 let index = 0;
 function typeEffect(){
     if(index < text.length){
-        tittle.innertext += text.charAt(index);
+        tittle.innerText += text.charAt(index);
         index++;
         setTimeout(typeEffect, 80);
     }

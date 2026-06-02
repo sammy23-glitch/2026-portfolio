@@ -1,18 +1,18 @@
 body {
-    margin: o;
+    margin: 0;
     font-family: "Segoe UI",Arial, sans-serif;
-    background: rgb(170, 23, 228);/*  gray*/
+    background: rgb(23, 136, 228);/*  gray*/
 }
 /*Header*/
 header {
-    background: rgb(23, 228, 57);
+    background: rgb(23, 228, 218);
     color: white;
     padding: 20px;
     text-align: right;
 }
 /*navigation bar*/
 nav {
-    margin: top 10px;
+    margin-top: 10px;
 }
     nav a {
         margin: 0 12px;
@@ -153,7 +153,7 @@ child {
     color: #5a2ea6;
 }
 goal {
-    background: #f7f1ff;
+    background: #f1fffa;
     padding: 20px;
     border-left: 5px solid #5a2ea6;
     margin-bottom: 20px;
